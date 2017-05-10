@@ -97,8 +97,8 @@ map to:
 - add yank on ~y~ _in visual state only_
 - activate evil-leader key on ~SPC~
 
-Setting the =evilified state= to a mode is done by calling the macro
-=spacemacs|evilify-map=.
+Setting the =evilified state= to a mode is done by calling the function
+=evil-evilified-state=.
 
 /Evilification/ rebinds shadowed key bindings according to the following
 rules:
